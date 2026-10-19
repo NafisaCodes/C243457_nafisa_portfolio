@@ -1,0 +1,604 @@
+/* =====================================================
+   AURELIA INTERNATIONAL UNIVERSITY
+   BOOTSTRAP CUSTOM CSS
+   ===================================================== */
+
+
+/* ================= GENERAL ================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f8fc;
+    color: #222;
+    line-height: 1.6;
+}
+
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+    background-color: #101820 !important;
+    padding: 14px 0;
+}
+
+.navbar-brand {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    object-fit: contain;
+}
+
+.navbar-nav {
+    gap: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px 14px !important;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #b9d7f5 !important;
+}
+
+.navbar-nav .nav-link.active {
+    color: #b9d7f5 !important;
+}
+
+
+/* ================= HERO ================= */
+
+.hero {
+    min-height: 550px;
+    padding: 80px 20px;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)
+        ),
+        url("../images/university.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero h2 {
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    color: white;
+    font-size: 18px;
+    max-width: 700px;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    padding: 14px 28px;
+    color: #12355b;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #e8f1fa;
+    transform: translateY(-2px);
+}
+
+
+/* ================= ABOUT ================= */
+
+.about {
+    padding: 85px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.about h2 {
+    color: #12355b;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about p {
+    max-width: 800px;
+    margin: auto;
+    color: #555;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+
+/* ================= SERVICES ================= */
+
+.services {
+    background-color: #f5f8fc;
+}
+
+.services > .container > h2 {
+    color: #12355b;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.services .card {
+    border: 1px solid #e0e6ed;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.services .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(18, 53, 91, 0.14) !important;
+}
+
+.services .card h3 {
+    color: #12355b;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.services .card p {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+
+/* ================= STUDENT TITLE ================= */
+
+.student-title {
+    text-align: center;
+    padding: 70px 20px 35px;
+    background-color: #f5f8fc;
+}
+
+.student-title h2 {
+    color: #12355b;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.student-title p {
+    color: #666;
+    margin-top: 10px;
+}
+
+
+/* ================= STUDENT FORM ================= */
+
+.student-form {
+    width: 90%;
+    max-width: 700px;
+    margin: 40px auto 70px;
+    padding: 40px;
+
+    background-color: white;
+    border-radius: 12px;
+
+    box-shadow: 0 8px 30px rgba(18, 53, 91, 0.10);
+}
+
+.student-form h2 {
+    text-align: center;
+    color: #12355b;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+/* ================= FORM ================= */
+
+.student-form .form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+.student-form .form-control,
+.student-form .form-select {
+    padding: 12px 14px;
+    border: 1px solid #ccd5df;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.student-form .form-control:focus,
+.student-form .form-select:focus {
+    border-color: #12355b;
+    box-shadow: 0 0 0 3px rgba(18, 53, 91, 0.08);
+}
+
+
+/* ================= ADD STUDENT BUTTON ================= */
+
+.student-form .btn-primary {
+    background-color: #12355b;
+    border-color: #12355b;
+
+    padding: 13px;
+    font-size: 16px;
+    font-weight: bold;
+
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.student-form .btn-primary:hover {
+    background-color: #0b2540;
+    border-color: #0b2540;
+}
+
+
+/* ================= STUDENT LIST ================= */
+
+.student-list {
+    padding: 60px 30px 90px;
+    background-color: #f5f8fc;
+}
+
+.student-list h2 {
+    text-align: center;
+    color: #12355b;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+/* ================= STUDENT TABLE ================= */
+
+.student-list table {
+    background-color: white;
+    box-shadow: 0 5px 20px rgba(18, 53, 91, 0.08);
+}
+
+.student-list th {
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px;
+}
+
+.student-list td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 14px;
+}
+
+
+/* ================= FOOTER ================= */
+
+footer {
+    background-color: #101820;
+    color: white;
+    padding: 55px 20px;
+    text-align: center;
+}
+
+.footer-section {
+    max-width: 900px;
+    margin: auto;
+}
+
+.footer-section h2 {
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+
+.footer-section p {
+    color: #d5dce3;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer-section .copyright {
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    font-size: 13px;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 991px) {
+
+    .navbar-brand {
+        font-size: 19px;
+    }
+
+    .navbar-nav {
+        margin-top: 15px;
+        gap: 0;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 8px 0 !important;
+    }
+
+    .hero {
+        min-height: 500px;
+    }
+
+    .hero h2 {
+        font-size: 36px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .hero {
+        min-height: 450px;
+        padding: 60px 20px;
+    }
+
+    .hero h2 {
+        font-size: 30px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .about {
+        padding: 65px 20px;
+    }
+
+    .about h2 {
+        font-size: 28px;
+    }
+
+    .services > .container > h2 {
+        font-size: 28px;
+    }
+
+    .student-title h2 {
+        font-size: 30px;
+    }
+
+    .student-form {
+        width: 94%;
+        padding: 30px 20px;
+    }
+
+    .student-list {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+@media (max-width: 576px) {
+
+    .navbar-brand {
+        font-size: 16px;
+    }
+
+    .navbar-brand img {
+        width: 42px;
+        height: 42px;
+    }
+
+    .hero {
+        min-height: 420px;
+        padding: 50px 15px;
+    }
+
+    .hero h2 {
+        font-size: 26px;
+    }
+
+    .hero p {
+        font-size: 15px;
+    }
+
+    .hero .btn {
+        font-size: 15px;
+        padding: 12px 20px;
+    }
+
+    .about h2 {
+        font-size: 25px;
+    }
+
+    .services > .container > h2 {
+        font-size: 25px;
+    }
+
+    .student-title {
+        padding: 50px 15px 25px;
+    }
+
+    .student-title h2 {
+        font-size: 26px;
+    }
+
+    .student-form {
+        width: 95%;
+        padding: 25px 18px;
+        margin-top: 25px;
+    }
+
+    .student-form h2 {
+        font-size: 23px;
+    }
+
+    footer {
+        padding: 45px 15px;
+    }
+
+    .footer-section h2 {
+        font-size: 20px;
+    }
+}
+
+/* ================= LOGIN PAGE ================= */
+
+.login-page {
+    min-height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #f5f8fc;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 450px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 35px rgba(18, 53, 91, 0.12);
+}
+
+.login-logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-logo img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.login-container h2 {
+    text-align: center;
+    color: #12355b;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.login-subtitle {
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.login-container .form-label {
+    color: #333;
+    font-weight: bold;
+}
+
+.login-container .form-control {
+    padding: 12px 14px;
+    border: 1px solid #ccd5df;
+    border-radius: 6px;
+}
+
+.login-container .form-control:focus {
+    border-color: #12355b;
+    box-shadow: 0 0 0 3px rgba(18, 53, 91, 0.08);
+}
+
+.login-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0 25px;
+    font-size: 14px;
+}
+
+.login-options a {
+    color: #12355b;
+    text-decoration: none;
+}
+
+.login-options a:hover {
+    text-decoration: underline;
+}
+
+.login-btn {
+    background-color: #12355b;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #0b2540;
+    color: white;
+}
+
+.register-text {
+    text-align: center;
+    margin-top: 25px;
+    color: #666;
+    font-size: 14px;
+}
+
+.register-text a {
+    color: #12355b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.register-text a:hover {
+    text-decoration: underline;
+}
+
+.back-home {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-home a {
+    color: #555;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.back-home a:hover {
+    color: #12355b;
+}
+
+
+/* ================= LOGIN RESPONSIVE ================= */
+
+@media (max-width: 576px) {
+
+    .login-page {
+        padding: 40px 15px;
+    }
+
+    .login-container {
+        padding: 30px 20px;
+    }
+
+    .login-container h2 {
+        font-size: 26px;
+    }
+
+    .login-options {
+        font-size: 13px;
+    }
+
+}
